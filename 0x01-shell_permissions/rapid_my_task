@@ -1,0 +1,7 @@
+#!/bin/bash
+vi $1
+chmod 777 $1
+file="Solve $1"
+git add $1
+git commit -m file
+git push 
